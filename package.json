@@ -1,0 +1,22 @@
+{
+  "name": "rcx",
+  "version": "0.0.1",
+  "description": "Primeira versao Node RCX",
+  "main": "app.js",
+  "scripts": {
+	"test": "ls",
+	"start": "nodemon server.js"
+  },
+  "dependencies": {
+    "asterisk-manager": "^0.1.16",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12",
+    "oracledb": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Zarpelon",
+  "license": "ISC"
+}
